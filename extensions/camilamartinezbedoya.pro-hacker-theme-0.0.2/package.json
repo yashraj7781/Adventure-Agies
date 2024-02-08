@@ -1,0 +1,37 @@
+{
+	"name": "pro-hacker-theme",
+	"displayName": "Pro hacker theme",
+	"description": "VS Code Theme made for pro hackers. But no really, simple black and green theme to make you feel like hacker while you wirte poor code.",
+	"version": "0.0.2",
+	"publisher": "CamilaMartinezBedoya",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cammarb/hacker-theme-vscode"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Pro Hacker Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hacker Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "b2da1c66-39a9-4c81-b30c-bf2ecbed5896",
+		"publisherId": "6857f689-ea7b-4591-b0a0-e4e01e6cd17e",
+		"publisherDisplayName": "Camila Martinez Bedoya",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696501436967,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"name": "vscode-jsp-lang",
+	"displayName": "JSP Language Support",
+	"description": "JSP syntax highlighting for VS Code",
+	"version": "0.1.7",
+	"publisher": "samuel-weinhardt",
+	"license": "MIT",
+	"icon": "./assets/icon.png",
+	"repository": {
+		"url": "https://github.com/samuel-weinhardt/vscode-jsp-lang"
+	},
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "jsp",
+				"aliases": [
+					"Jakarta Server Pages",
+					"JavaServer Pages",
+					"Java Server Pages",
+					"JSP",
+					"JSTL",
+					"jstl"
+				],
+				"extensions": [
+					".jsp",
+					".jspf",
+					".tag"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "jsp",
+				"scopeName": "text.html.jsp",
+				"path": "./syntaxes/jsp.tmLanguage.json",
+				"embeddedLanguages": {
+					"meta.embedded.block.java": "java"
+				}
+			}
+		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^2.21.1"
+	},
+	"__metadata": {
+		"id": "10bbca8f-d225-4bb4-8cf4-a0d2f22611d6",
+		"publisherId": "ffac8c00-695a-453a-83dd-cc82e5602096",
+		"publisherDisplayName": "Samuel Weinhardt",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1701152385318,
+		"preRelease": false
+	}
+}

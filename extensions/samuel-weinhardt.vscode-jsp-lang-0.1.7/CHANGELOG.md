@@ -1,0 +1,22 @@
+# Change Log
+
+## [0.1.7]
+
+- Add additional directive keywords
+
+## [0.1.6]
+
+- Support deferred evaluation expressions
+
+## [0.1.3]
+
+- Add explicit handling for directives
+- Replace xml with html.derivative for better HTML matching
+
+## [0.1.2]
+
+- Handle fragmented scriptlets
+
+## [0.0.1]
+
+- Initial release

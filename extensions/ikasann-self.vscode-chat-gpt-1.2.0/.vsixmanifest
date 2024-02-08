@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="vscode-chat-gpt" Version="1.2.0" Publisher="ikasann-self" />
+			<DisplayName>vscode-chat-gpt</DisplayName>
+			<Description xml:space="preserve">Extension uses ChatGpt Api to make chat compilations and image generations.</Description>
+			<Tags>openai,chatgpt,gpt,chat,ai,keybindings</Tags>
+			<Categories>Other</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.77.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/ismailkasan/chat-gpt-vscode-extension.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/ismailkasan/chat-gpt-vscode-extension.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/ismailkasan/chat-gpt-vscode-extension.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/ismailkasan/chat-gpt-vscode-extension/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/ismailkasan/chat-gpt-vscode-extension/main/README.md" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#0000FF" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			
+			<Icon>extension/out/media/chat-gpt-logo.jpeg</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/out/media/chat-gpt-logo.jpeg" Addressable="true" />
+		</Assets>
+	</PackageManifest>
